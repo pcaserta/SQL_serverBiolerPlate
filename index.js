@@ -13,7 +13,7 @@ const SELECT_ALL_PRODUCT_QUERY = "Select * FROM products";
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "",
+  password: "yourRootPassword",
   database: "react_sql"
 });
 
